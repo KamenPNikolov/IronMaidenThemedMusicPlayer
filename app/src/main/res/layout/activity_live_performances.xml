@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background = "@drawable/concert2"
+    >
+
+
+    <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webviewlive"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="top"
+        />
+
+    <Button
+    android:id="@+id/liveperformancesButton1"
+    android:text="Watch Concert Footage 1"
+    android:textSize="17dp"
+    android:textColor="#FF1F1F"
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:background="@drawable/buttonlayout"
+    android:shadowColor="#A82814"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="5"
+    android:layout_marginTop="150dp"
+    android:layout_gravity="center"
+        android:onClick="selectVideo"
+        />
+    <Button
+        android:id="@+id/liveperformancesButton2"
+        android:text="Watch Concert Footage 2"
+        android:textSize="17dp"
+        android:textColor="#FF1F1F"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonlayout"
+        android:shadowColor="#A82814"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="selectVideo"
+        />
+    <Button
+        android:id="@+id/liveperformancesButton3"
+        android:text="Watch Concert Footage 3"
+        android:textSize="17dp"
+        android:textColor="#FF1F1F"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonlayout"
+        android:shadowColor="#A82814"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="selectVideo"
+
+        />
+    <Button
+        android:id="@+id/liveperformancesButton4"
+        android:text="Watch Concert Footage 4"
+        android:textSize="17dp"
+        android:textColor="#FF1F1F"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonlayout"
+        android:shadowColor="#A82814"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="selectVideo"
+
+        />
+    <Button
+        android:id="@+id/liveperformancesButton5"
+        android:text="Watch Concert Footage 5"
+        android:textSize="17dp"
+        android:textColor="#FF1F1F"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonlayout"
+        android:shadowColor="#A82814"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="selectVideo"
+
+        />
+
+</LinearLayout>

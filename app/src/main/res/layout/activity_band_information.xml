@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background ="@android:color/black"
+    android:orientation="vertical"
+
+    >
+<GridView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:numColumns="3"
+    android:columnWidth="100dp"
+    android:stretchMode="columnWidth"
+    android:id="@+id/bandmembersgrid"
+    >
+</GridView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/textheading"
+        android:textColor="#FF1F1F"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "20sp"
+        android:id="@+id/textbody"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="50dp"
+        android:textColor="#FF1F1F"
+        />
+
+
+</LinearLayout>

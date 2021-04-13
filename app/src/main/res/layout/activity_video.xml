@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    >
+    <VideoView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/videoView1"
+
+    />
+
+    <Button
+
+        android:id="@+id/changeVideoButton"
+        android:text="Change Video"
+        android:textSize="17dp"
+        android:textColor="#FF1F1F"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonlayout"
+        android:shadowColor="#A82814"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+
+        />
+
+</LinearLayout>
